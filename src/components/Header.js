@@ -9,23 +9,30 @@ const Header = () => {
 
   return (
     <>
-      <section className="flex justify-between w-4/5 m-auto pt-7 pb-10 text-2xl items-center  ">
+      <section className="flex justify-between w-4/5 m-auto pt-7  text-2xl items-center  ">
+        <div className=" " >
         <Link to="/" style={{ textDecoration: "none" }}>
           {" "}
-          <h1 className="text-3xl text-purple-900"> Diseyi Philomena</h1>{" "}
+          <h1 className=" font-bold text-purple-900 font-sans "> Diseyi</h1>{" "}
         </Link>
-        <div className=" lg:w-2/5 xl:w-1/4 hidden lg:flex lg:justify-between ">
+        </div>
+        
+        <div className=" lg:w-2/5 xl:w-1/4 hidden lg:flex lg:justify-between text-xl ">
           <Link to="/about" style={{ textDecoration: "none" }}>
             {" "}
             <button className="hover:underline "> About</button>{" "}
           </Link>
-          <Link to="/contact" style={{ textDecoration: "none" }}>
+          <Link to="/work" style={{ textDecoration: "none" }}>
             {" "}
-            <button className="hover:underline "> Contact</button>{" "}
+            <button className="hover:underline  "> Work </button>{" "}
           </Link>
-          <Link to="/project" style={{ textDecoration: "none" }}>
+          <Link to="/resume" style={{ textDecoration: "none" }}>
             {" "}
-            <button className="hover:underline  "> Projects</button>{" "}
+            <button className="hover:underline "> Resume</button>{" "}
+          </Link>
+          <Link to="https://hashnode.com/@Diseyi" style={{ textDecoration: "none" }}>
+            {" "}
+            <button className="hover:underline text-1xl  "> Blog</button>{" "}
           </Link>
           {/* <button className="border-2 border-purple-500 rounded-xl p-2 pl-3 pr-3 bg-purple-500 text-white hover:backdrop-opacity-30  "> Project</button> */}
         </div>

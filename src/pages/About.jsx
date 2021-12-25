@@ -6,13 +6,13 @@ import image from "../assets/image.png";
 
 const About = () => {
   return (
-    <section className="bg-gray-300 ">
+    <section className=" ">
       <Header />
-      <main className=" w-4/5 m-auto mt-20 flex flex-col-reverse items-center justify-between lg:flex-row ">
+      <main className=" w-4/5 m-auto mt-20 mb-20 flex flex-col-reverse items-center justify-between lg:flex-row ">
         <div className="">
-          <h2 className="text-5xl font-bold  ">I'm</h2>
-          <h2 className="text-5xl font-bold ">Diseyi Philomena</h2>
-          <h3 className="text-5xl font-bold "> Frontend Developer</h3>
+          
+        
+          <h3 className="text-5xl font-light ">I'm a Frontend Developer</h3>
 
           <p className=" mt-10 text-2xl ">
             I'm good at interpreting ideas and designs into reliable, scalable,

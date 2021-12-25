@@ -18,7 +18,10 @@ ReactDOM.render(
       <Route path="/" element={<App />} />
       <Route path="/home" element={ <Home /> } />
       <Route path="/about" element={ <About /> } />
-      <Route path="/project" element={ <Project /> } /> 
+      <Route path="/work" element={ <Project /> } /> 
+      <Route path="/resume" render={ () => { 
+     window.location = 'https://drive.google.com/file/d/1JV_xBQlCOHi2BaeUZcrvlA4fFU-ukwdp/view?usp=sharing';
+} } />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

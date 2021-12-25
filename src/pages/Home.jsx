@@ -2,25 +2,24 @@ import React from "react";
 import Header from "../components/Header";
 import woman from "../assets/woman.png";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <section className="bg-gray-300  ">
+
+    <section className="bg-white ">
       <Header />
-      <main className=" flex flex-col items-center w-4/5 m-auto mt-20 justify-evenly lg:flex-row bg-gray-300 ">
-        <div className="flex flex-col text-3xl font-bold ">
-          <p className=""> Const Repeat = () =&#10093; &#123; </p>
-          <p className="pl-5">While(alive) &#123; </p>
-          <p className="pl-10 ">Eat </p>
-          <p className="pl-10 ">Code </p>
-          <p className="pl-10 ">Sleep </p>
-          <p className="pl-10 ">Write Poem </p>
-          <p className="pl-5">&#125; </p>
-          <p className="">&#125; </p>
-          <button className="border-2 border-purple-500 rounded-xl p-2 pl-3 pr-3 mt-5 bg-purple-500 text-white">
-            {" "}
-            Repeat( ){" "}
-          </button>
+      <main className=" flex flex-col items-center w-4/5 m-auto mt-20 justify-evenly lg:flex-row  ">
+        <div className="flex flex-col justify-between text-3xl font-bold ">
+          <h2 className="text-5xl font-light pb-5  ">Hi, I'm</h2>
+          <h2 className="text-5xl font-light pb-5 ">Diseyi Philomena</h2>
+          <h3 className="text-5xl font-light pb-5 "> Frontend Developer</h3>
+          <Link to="/" style={{ textDecoration: "none" }}>
+          {" "}
+          <button className=" font-bold text-purple-900 font-sans "> filomiinaa@gmail.com</button>{" "}
+        </Link>
+
+         
         </div>
         <img
           src={woman}

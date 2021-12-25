@@ -1,77 +1,49 @@
-import React from "react";
-import Button from "../components/Button";
-import image from "../assets/image.png";
-import Header from '../components/Header';
-import Footer from "../components/Footer";
+import React from 'react'
+import Button from '../components/Button'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Project = () => {
   return (
-    <section className="bg-gray-300 ">
-         <Header />
-      <div className="w-4/5 bg-gray-300 m-auto mt-20 ">
-        <details className="bg-gray-300 pt-10 pb-10 border-b-2">
-          <summary className=" flex justify-between">
-            <h2 className="text-4xl">Weather App </h2>
-          </summary>
-          <div className="flex flex-col items-center justify-between pt-10 pb-10 lg:flex-row  ">
-            <p className="text-2xl">
-              {" "}
-              Weatherman is a weather app that forcast weather report for up to
-              eight days{" "}
-            </p>
-            <img src={image} alt="a woman with a system" className="m-0 p-0" />
-          </div>
-          <Button value="view site" />
-        </details>
+    <section className=" ">
+      <Header />
+      <div className="w-4/5 m-auto mt-10 mb-20 ">
+        <h2 className="text-7xl font-light pb-5  ">Projects</h2>
 
-        <details className="bg-gray-300 pt-10 pb-10 border-b-2">
-          <summary className=" flex justify-between">
-            <h2 className="text-4xl">Weather App </h2>
-          </summary>
-          <div className="flex flex-col items-center justify-between pt-10 pb-10 lg:flex-row  ">
-            <p className="text-2xl ">
-              {" "}
+        <div className="flex flex-col flex-between mt-10 items-center   lg:flex-row ">
+          <div className="border-2 border-black rounded-xl p-10 mb-5 m-10 ">
+            <h3 className="text-2xl ">Weather App</h3>
+            <p className="mb-10 mt-5 text-purple-900 ">
+              {' '}
               Weatherman is a weather app that forcast weather report for up to
-              eight days{" "}
+              eight days
             </p>
-            <img src={image} alt="a woman with a system" className="m-0 p-0" />
+            <Button value="view site" />
           </div>
-          <Button value="view site" />
-        </details>
 
-        <details className="bg-gray-300 pt-10 pb-10 border-b-2">
-          <summary className=" flex justify-between">
-            <h2 className="text-4xl">Weather App </h2>
-          </summary>
-          <div className="flex flex-col items-center justify-between pt-10 pb-10 lg:flex-row  ">
-            <p className="text-2xl ">
-              {" "}
+          <div className="border-2 border-black rounded-xl p-10 mb-5  m-10 ">
+            <h3 className="text-2xl ">Weather App</h3>
+            <p className="mb-10 mt-5 text-purple-900 ">
+              {' '}
               Weatherman is a weather app that forcast weather report for up to
-              eight days{" "}
+              eight days
             </p>
-            <img src={image} alt="a woman with a system" className="m-0 p-0" />
+            <Button value="view site" />
           </div>
-          <Button value="view site" />
-        </details>
 
-        <details className="bg-gray-300 pt-10 pb-10 border-b-2">
-          <summary className=" flex justify-between">
-            <h2 className="text-4xl">Weather App </h2>
-          </summary>
-          <div className="flex flex-col items-center justify-between pt-10 pb-10 lg:flex-row  ">
-            <p className="text-2xl ">
-              {" "}
-              Weatherman is a weather app that forcast weather report for up to
-              eight days{" "}
+          <div className="border-2 border-black rounded-xl p-10 mb-5 m-10 ">
+            <h3 className="text-2xl  ">Keypsafe</h3>
+            <p className="mb-10 mt-5 text-purple-900  ">
+              {' '}
+              Password manager that genrates secure password for users and store to database
             </p>
-            <img src={image} alt="a woman with a system" className="m-0 p-0" />
+            <Button value="view site" />
           </div>
-          <Button value="view site" />
-        </details>
+        </div>
       </div>
       <Footer />
     </section>
-  );
-};
+  )
+}
 
-export default Project;
+export default Project
