@@ -28,7 +28,7 @@ const Project = () => {
           </div>
 
           <div className="border-2 border-black rounded-xl p-10 mb-5  m-10 ">
-            <h3 className="text-2xl ">Weather App</h3>
+            <h3 className="text-2xl ">Task Manager</h3>
             <p className="mb-10 mt-5 text-purple-900 ">
               {' '}
              A productivity app that helps you keep track of your daily goals
