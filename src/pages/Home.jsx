@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../components/Header";
 import woman from "../assets/woman.png";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -13,11 +12,11 @@ const Home = () => {
         <div className="flex flex-col justify-between text-3xl font-bold ">
           <h2 className="text-5xl font-light pb-5  ">Hi, I'm</h2>
           <h2 className="text-5xl font-light pb-5 ">Diseyi Philomena</h2>
-          <h3 className="text-5xl font-light pb-5 "> Frontend Developer</h3>
-          <Link to="/" style={{ textDecoration: "none" }}>
-          {" "}
-          <button className=" font-bold text-purple-900 font-sans "> filomiinaa@gmail.com</button>{" "}
-        </Link>
+          <h3 className="text-5xl font-light pb-5 "> Frontend Developer & </h3>
+          <h3 className="text-5xl font-light pb-5 "> Technical Writer</h3>
+         
+          <a href="mailto:filominaa@gmail.com" className=" font-bold text-purple-900 font-sans "> filomiinaa@gmail.com</a>
+       
 
          
         </div>
