@@ -3,6 +3,7 @@ import Button from '../components/Button'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import image from '../assets/diseyi.png'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -38,9 +39,9 @@ const About = () => {
           <a href="mailto:filominaa@gmail.com" className="  ">
             <Button value="Reach out to me" />
             </a>
-            <a href="/work" className="">
+             <Link to="/work" style={{ textDecoration: 'none' }}>
             <Button value="Check out my project" />
-            </a>
+            </Link>
           </div>
         </div>
         <img src={image} alt="a woman with a system" className="m-0 p-0 ml-10 " />

@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'react-router-dom'
 
 const Navbar = (props) => {
 
@@ -6,12 +7,12 @@ const Navbar = (props) => {
   return (
     <section className="flex flex-col items-center bg-black fixed w-full h-screen top-0 opacity-90 text-3xl pt-20 text-purple-500 lg:hidden" id={props.id} >
        <button className="hover:underline p-10 " onClick={props.onClick} > close</button>{" "}
-       <a href="/about" className="hover:underline p-10 ">
+       <Link to="/about" style={{ textDecoration: 'none' }}>
             About
-          </a>
-          <a href="/work" className="hover:underline p-10 ">
+        </Link>
+        <Link to="/work" style={{ textDecoration: 'none' }}>
             Work
-          </a>
+        </Link>
           <a
             href="https://drive.google.com/file/d/1JV_xBQlCOHi2BaeUZcrvlA4fFU-ukwdp/view?usp=sharing"
             rel="noreferrer"

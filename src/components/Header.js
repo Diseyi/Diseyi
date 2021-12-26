@@ -21,14 +21,12 @@ const Header = () => {
         </div>
 
         <div className=" lg:w-2/5 xl:w-1/4 hidden lg:flex lg:justify-between text-xl ">
-          <a href="/about" className="hover:underline ">
-            {' '}
+        <Link to="/about" style={{ textDecoration: 'none' }}>
             About
-          </a>{' '}
-          <a href="/work" className="hover:underline  ">
-            {' '}
-            Work{' '}
-          </a>
+        </Link>
+        <Link to="/work" style={{ textDecoration: 'none' }}>
+            Work
+        </Link>
           <a
             href="https://drive.google.com/file/d/1JV_xBQlCOHi2BaeUZcrvlA4fFU-ukwdp/view?usp=sharing"
             rel="noreferrer"
