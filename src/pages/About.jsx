@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../components/Button'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import image from '../assets/image.png'
+import image from '../assets/diseyi.png'
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
             technical concepts on Programming, Blockchain Development, Crypto.
             Interestingly, I'm a Poet and Spoken Word Artist, my poems are centered around helping people build a healthy self identity.
             <br />
-            
+
             <br />
 
             I am very passionate about building products that solve problems. If
@@ -43,7 +43,7 @@ const About = () => {
             </a>
           </div>
         </div>
-        <img src={image} alt="a woman with a system" className="m-0 p-0" />
+        <img src={image} alt="a woman with a system" className="m-0 p-0 ml-10 " />
       </main>
       <Footer />
     </section>
