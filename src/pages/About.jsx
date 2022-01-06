@@ -15,13 +15,12 @@ const About = () => {
 
           <p className=" mt-10  ">
             I'm good at interpreting ideas and designs into fast, responsive,
-            scalable, secure and user-friendly solutions for brands and
-            organizations. I bring creative thinking and efficient
+    user-friendly experience. I bring creative thinking and efficient
             problem-solving skills to any team I'm working with. My Superpower
             is learning how to find and filter the right information.
             <br />
             When I'm not coding, I'm writing articles to help people understand
-            technical concepts on Programming, Blockchain Development, Crypto.
+            technical concepts on Programming.
             Interestingly, I'm a Poet and Spoken Word Artist, my poems are centered around helping people build a healthy self identity.
             <br />
 
