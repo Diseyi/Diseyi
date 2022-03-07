@@ -1,4 +1,10 @@
 ### Hi there 👋
+### I'm Diseyi Philomena
+### Frontend Developer and Technical Writer
+### When I'm not coding, I write poems and letters to my future husband
+### diseyi.medium.com
+### While you're here, look around and if you want to connect with me 
+### email: filomiinaa@gmail.com
 
 <!--
 **Diseyi/Diseyi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
